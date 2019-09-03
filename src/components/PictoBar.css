@@ -1,0 +1,15 @@
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid turquoise;
+    
+}
+
+.inputStyle{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 1.5em;
+    padding: 3px;
+    display: inline-block;
+    width:50%;
+}
