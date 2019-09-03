@@ -17,7 +17,7 @@ class PictoBar extends React.Component{
         return(
             <div>
                 <form onSubmit={this.onFormSubmit} className="flexContainer">
-                    <label><h3>Picto Encode: </h3> </label>
+                    <label><h3>Pictograph: </h3> </label>
                     <input className="inputStyle" 
                     type="text" 
                     value={this.state.val}
