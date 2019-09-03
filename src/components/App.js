@@ -12,7 +12,7 @@ class App extends React.Component {
        const response = await axios.get('https://api.unsplash.com/search/photos',{
             params:{query:term},
             headers:{
-                Authorization:'Client-ID 574f91dd2b40665fa3dd896ea46a0279af28709c5ce19bff9c7b1115c3ad05b6'
+                Authorization:'Client-ID '
             }
         })
         console.log(response);
